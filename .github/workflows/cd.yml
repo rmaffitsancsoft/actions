@@ -37,4 +37,4 @@ jobs:
         draft: false
         prerelease: false
         generate_release_notes: true
-        files: dist/out.txt
+        files: dist/*
