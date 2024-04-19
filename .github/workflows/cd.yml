@@ -27,8 +27,8 @@ jobs:
     - uses: actions/download-artifact@v4
       with:
         name: build
-        path: src/web/dist/web/browser/
+        path: dist/out.txt
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
-        files: out.txt
+        files: dist/out.txt
